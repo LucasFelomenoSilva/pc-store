@@ -1,0 +1,48 @@
+/* Home.css */
+
+/* Estilos para a lista de lojas */
+.store-list {
+  list-style: none; /* Remove os marcadores de lista (pontos) */
+  padding: 0; /* Remove o preenchimento padrão da lista */
+}
+
+/* Estilos para cada item da loja */
+.store-item {
+  background-color: #fff; /* Define a cor de fundo do item da loja */
+  border: 1px solid #ddd; /* Adiciona uma borda com cor cinza */
+  margin: 10px; /* Define margens externas ao redor do item da loja */
+  padding: 20px; /* Adiciona espaçamento interno no item da loja */
+  border-radius: 5px; /* Adiciona cantos arredondados ao item */
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra sutil */
+  transition: transform 0.2s; /* Adiciona uma transição de transformação ao passar o mouse */
+}
+
+/* Estilos para o item da loja ao passar o mouse */
+.store-item:hover {
+  transform: scale(
+    1.02
+  ); /* Aumenta ligeiramente o tamanho do item ao passar o mouse */
+}
+
+/* Estilos para o nome da loja */
+.store-name {
+  font-size: 24px; /* Define o tamanho da fonte do nome da loja */
+  margin: 10px 0; /* Define margens superior e inferior para separar o nome da descrição */
+}
+
+/* Estilos para a descrição da loja */
+.store-description {
+  color: #777; /* Define a cor do texto da descrição com uma tonalidade de cinza */
+}
+
+/* Estilos para o link "Ver produtos" */
+.store-link {
+  text-decoration: none; /* Remove a decoração de texto (sublinhado) do link */
+  color: #007bff; /* Define a cor do link */
+  font-weight: bold; /* Define o peso da fonte como negrito */
+}
+
+/* Estilos para o link "Ver produtos" ao passar o mouse */
+.store-link:hover {
+  text-decoration: underline; /* Adiciona um sublinhado ao passar o mouse sobre o link */
+}
